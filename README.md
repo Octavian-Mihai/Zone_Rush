@@ -22,6 +22,7 @@ Welcome to **Obstacle Challenge**, a 3D Unity game where you must guide a cube-s
 ### 🚉 Zone 1: The Train Station
 - 10+ trains move left and right with **random speeds and lengths**.
 - Touching a train sends you back to the beginning of the station and adds 1 second to your penalty time.
+
 ![Zone 1: The Train Station](images/rush_image1.png)
 
 
@@ -29,6 +30,7 @@ Welcome to **Obstacle Challenge**, a 3D Unity game where you must guide a cube-s
 ### 🏗️ Zone 2: The Construction Site
 - At least 10 beams (poutres) spin in place with **random speeds, angles, and directions**.
 - Contacting a beam restarts the zone and adds another penalty second.
+
 ![Zone 2: The Construction Site](images/rush_image2.png)
 
 
@@ -36,12 +38,14 @@ Welcome to **Obstacle Challenge**, a 3D Unity game where you must guide a cube-s
 ### 🌲 Zone 3: The Strange Forest
 - 50+ tree trunks **pop in and out of the ground** with random intervals and speeds, trying to crush you!
 - If you get hit, you’re sent back to the forest’s start with time penalties.
+
 ![Zone 3: The Strange Forest](images/rush_image3.png)
 
 
 
 ### 🏁 Final Zone: The Finish Line
 - Once you exit the forest, you reach the finish zone.
+
 ![Final Zone: The Finish Line](images/rush_image4.png)
 
 
