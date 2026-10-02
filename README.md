@@ -1,5 +1,7 @@
 # Zone Rush
 
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
+
 
 # 🚧 Obstacle Challenge Game 🕹️
 
