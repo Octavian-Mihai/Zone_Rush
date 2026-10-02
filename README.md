@@ -1,12 +1,28 @@
 # Zone Rush
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
-
 
 # 🚧 Obstacle Challenge Game 🕹️
 
 Welcome to **Obstacle Challenge**, a 3D Unity game where you must guide a cube-shaped player through three increasingly difficult zones—**the train station**, **the construction site**, and **the strange forest**—while avoiding moving hazards and racing against the clock! ⏱️
 
+
+
+## Architecture
+
+```mermaid
+flowchart TD
+    Player([Player cube]) --> Cube["scriptCube.cs<br/>movement · collisions · timer"]
+    subgraph Zones
+        Train["Train station<br/>scriptTrain.cs"]
+        Site["Construction site<br/>scriptChantier.cs"]
+        Forest["Strange forest<br/>scriptArbre.cs"]
+    end
+    Cube --> Train --> Site --> Forest
+    Train & Site & Forest -->|moving hazards| Cube
+    Cube --> UI[UI: timer · win/lose]
+```
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 ## 🎮 How to Play
 
